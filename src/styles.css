@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+:root {
+  --secondary: "Special Elite" cursive;
+}
+
+body {
+  margin: 0px;
+  background-image: url(bg1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+}
+
+.navi {
+  font-family: var(--secondary);
+  padding: 0.4rem;
+  text-align: center;
+}
+
+main {
+  margin: auto;
+  padding: 1rem;
+  max-width: 600px;
+}
+
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-size: large;
+}
+
+button {
+  border: none;
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  font-size: large;
+  font-family: var(--secondary);
+}
+
+#translate-txt {
+  font-family: var(--secondary);
+}
+
+#translate-output {
+  box-sizing: border-box;
+  background-color: white;
+  width: 100%;
+  min-height: 10vh;
+  max-height: 20vh;
+  overflow: scroll;
+  border: 1px solid #111827;
+}
+
+.footer {
+  align-content: center;
+  padding: 1rem;
+  bottom: 0%;
+  position: fixed;
+  width: 100%;
+}
+
+.social-container {
+  margin-top: 0rem;
+  flex-direction: column;
+  align-content: center;
+}
+
+.social-icons {
+  padding: 0rem 1rem;
+  margin: auto;
+  margin-bottom: 1rem;
+}
