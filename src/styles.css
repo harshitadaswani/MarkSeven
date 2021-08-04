@@ -17,8 +17,8 @@ body {
 
 .navi img {
   margin: auto;
-  max-height: 300px;
-  max-width: 600px;
+  height: 20%;
+  width: 80%;
 }
 
 main {
@@ -42,7 +42,7 @@ textarea {
 
 button {
   font-family: "Rock Salt", cursive;
-  border: 1px var solid black;
+  border: 1px var solid #412e1e;
   background-image: url(bg2.jpg);
   margin: 1rem 0rem;
   padding: 1rem 2rem;
@@ -60,7 +60,7 @@ button {
   min-height: 10vh;
   max-height: 20vh;
   overflow: scroll;
-  border: 1px solid #111827;
+  border: 1px solid #412e1e;
 }
 
 .footer {
