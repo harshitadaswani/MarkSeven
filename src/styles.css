@@ -15,6 +15,12 @@ body {
   text-align: center;
 }
 
+.navi img {
+  margin: auto;
+  max-height: 300px;
+  max-width: 600px;
+}
+
 main {
   margin: auto;
   padding: 1rem;
