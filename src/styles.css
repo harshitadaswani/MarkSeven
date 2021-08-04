@@ -1,19 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
-
-:root {
-  --secondary: "Special Elite" cursive;
-}
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
 
 body {
   margin: 0px;
   background-image: url(bg1.jpg);
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
+  background-position: fixed;
   background-size: 100% 100%;
 }
 
 .navi {
-  font-family: var(--secondary);
+  font-family: "Rock Salt", cursive;
   padding: 0.4rem;
   text-align: center;
 }
@@ -34,15 +31,16 @@ textarea {
 }
 
 button {
-  border: none;
+  font-family: "Rock Salt", cursive;
+  border: 1px var solid black;
+  background-image: url(bg2.jpg);
   margin: 1rem 0rem;
   padding: 1rem 2rem;
   font-size: large;
-  font-family: var(--secondary);
 }
 
 #translate-txt {
-  font-family: var(--secondary);
+  font-family: "Rock Salt", cursive;
 }
 
 #translate-output {
@@ -59,7 +57,7 @@ button {
   align-content: center;
   padding: 1rem;
   bottom: 0%;
-  position: fixed;
+  position: scroll;
   width: 100%;
 }
 
