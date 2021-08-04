@@ -29,6 +29,7 @@ main {
 
 h1 {
   font-family: "Rock Salt", cursive;
+  font-size: 2 rem;
 }
 
 textarea {
@@ -51,6 +52,7 @@ button {
 
 #translate-txt {
   font-family: "Rock Salt", cursive;
+  font-size: 2 rem;
 }
 
 #translate-output {
