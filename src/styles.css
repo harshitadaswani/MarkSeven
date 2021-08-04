@@ -21,6 +21,10 @@ main {
   max-width: 600px;
 }
 
+h1 {
+  font-family: "Rock Salt", cursive;
+}
+
 textarea {
   box-sizing: border-box;
   display: block;
